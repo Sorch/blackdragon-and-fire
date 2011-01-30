@@ -1,6 +1,14 @@
 <?
-// 
-// See index.php for full license.
+
+///////////////////////////////////////////////////////////////
+// (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
+//  THIS SOFTWARE IS BETA                                     /
+//                                                            /
+// http://code.google.com/p/blackdragon-and-fire              /
+///////////////////////////////////////////////////////////////
+
+// OPTIONS STUFFS 
+
 require('db.php');
 require('global.php');
 

@@ -1,8 +1,17 @@
 <?
 
+///////////////////////////////////////////////////////////////
+// (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
+//  THIS SOFTWARE IS BETA                                     /
+//                                                            /
+// http://code.google.com/p/blackdragon-and-fire              /
+///////////////////////////////////////////////////////////////
+
 // BlackDragon & Fire Installer script
 
 // revsion sun-30-jan-2010 07:25am
+
+// PLEASE DON'T ALTER THE REVSION DATE THANKS THEHOLDER
 
 require("global.php");
 if (get_magic_quotes_gpc()) {

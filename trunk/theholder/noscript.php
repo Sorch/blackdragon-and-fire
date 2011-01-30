@@ -1,10 +1,13 @@
 <?php
-// Copyright 2010 - 2011 BlackDragon & Fire CMS Development Team
-// 
-// See index.php for full license.
 
+///////////////////////////////////////////////////////////////
+// (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
+//  THIS SOFTWARE IS BETA                                     /
+//                                                            /
+// http://code.google.com/p/blackdragon-and-fire              /
+///////////////////////////////////////////////////////////////
 
-// script for degrading gracefully
+// FALL BACK & CMS FAILSAFE
 
 require_once("db.php");
 require_once("global.php");
