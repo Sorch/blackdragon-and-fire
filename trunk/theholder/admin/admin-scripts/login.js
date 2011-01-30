@@ -49,7 +49,7 @@ function parseLogin(req) {
 function gen_login_form() {
 	var d = $('content');
 	$('sidebar').innerHTML = "&raquo; <a href=\"javascript:;\">Login</a>";
-	d.innerHTML = "<h1>Login</h1><P>In order to continue, you must login:<div id=\"error\"></div><form name=\"loginForm\" onSubmit=\"javascript:return login(document.loginForm.uname.value,document.loginForm.pass.value);\"><h3 class=\"T\"><label for=\"uname\">Username:</label><input type=\"text\" name=\"uname\" value=\"\" tabindex=\"1\" size=\"20\"><br /><label for=\"pass\">Password:</label><input type=\"password\" name=\"pass\" value=\"\" tabindex=\"2\" size=\"20\"><br /><input type=\"submit\" value=\"Login »\"></h3></form></P>";
+	d.innerHTML = "<h1>Identification Required</h1><P>In order to continue, you must identify yourself using your username and password:<div id=\"error\"></div><form name=\"loginForm\" onSubmit=\"javascript:return login(document.loginForm.uname.value,document.loginForm.pass.value);\"><h3 class=\"T\"><label for=\"uname\">Username:</label><input type=\"text\" name=\"uname\" value=\"\" tabindex=\"1\" size=\"20\"><br /><label for=\"pass\">Password:</label><input type=\"password\" name=\"pass\" value=\"\" tabindex=\"2\" size=\"20\"><br /><input type=\"submit\" value=\"Login »\"></h3></form></P>";
 }
 
 function logout() {
