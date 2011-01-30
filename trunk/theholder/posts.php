@@ -73,6 +73,8 @@ function posts_xml($result,$db) {
 	print "\n</posts>";
 }
 
+// Splitting comments in order to understand code
+
 function search_posts($db,$query) {
 	if (strlen($query) > 3) {
 		return $db->query("SELECT `id` ,  `".DB_PREFIX."news`.`uid` , `".DB_PREFIX."news`.`sid`, `display_name`,  `category_name` ,  `subject` ,  `excerpt` , `body` , `date` ,  `allowcomments` ,  `comments`  FROM  `".DB_PREFIX."news`  INNER  JOIN  `".DB_PREFIX."categories`  ON  `".DB_PREFIX."news`.`sid`  =  `".DB_PREFIX."categories`.`sid`  INNER  JOIN  `".DB_PREFIX."users`  ON  `".DB_PREFIX."news`.`uid`  =  `".DB_PREFIX."users`.`uid` WHERE (`subject` LIKE '%$query%' OR `body` LIKE '%$query%' OR `excerpt` LIKE '%$query%') ORDER BY `".DB_PREFIX."news`.`date` DESC"); 
