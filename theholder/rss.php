@@ -1,4 +1,15 @@
 <?php
+
+///////////////////////////////////////////////////////////////
+// (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
+//  THIS SOFTWARE IS BETA                                     /
+//                                                            /
+// http://code.google.com/p/blackdragon-and-fire              /
+///////////////////////////////////////////////////////////////
+
+// RSS FEEDER AND PARSER 
+// THIS IS -_- 
+
 header("Content-type: text/xml");
 $sid = $_GET['sid'];
 $id = $_GET['id'];

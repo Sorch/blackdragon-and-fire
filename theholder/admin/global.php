@@ -1,6 +1,14 @@
 <?php
 
-// See index.php for full license.
+///////////////////////////////////////////////////////////////
+// (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
+//  THIS SOFTWARE IS BETA                                     /
+//                                                            /
+// http://code.google.com/p/blackdragon-and-fire              /
+///////////////////////////////////////////////////////////////
+
+// GLOBAL CALL FUNCTIONS REALLY SHOULDNT NEED TO BE TOUCHED
+// UNLESS SOMETHING BREAKS -_-
 
 function xmlencode($string) {
     return str_replace (array ('“', '”', '…', '&', '"', "'", '<', '>', '‘'), array ('"', '"', '...', '&amp;' , '&quot;', '&apos;' , '&lt;' , '&gt;', '\''), $string); 
