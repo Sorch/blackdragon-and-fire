@@ -1,6 +1,4 @@
-// Copyright (c) 2005 Thomas Fuchs (http://script.aculo.us, http://mir.aculo.us)
-//
-// See scriptaculous.js for full license.
+// revised js
 
 var Builder = {
   NODEMAP: {
