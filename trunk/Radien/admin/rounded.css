@@ -1,0 +1,98 @@
+.round {
+	padding:0 10px;
+	margin:1em 0;
+	background:#fff;
+	border:1px solid #d7dccc;
+	}
+
+
+.cb {
+	margin:0.5em 0;
+	}
+
+.side {
+	position: absolute; 
+	left: 0px;
+	padding-left: 1em;
+	width: 200px;
+	}
+.con {
+
+	margin: 0 0 0 210px;
+	}
+
+.bt {
+	background:url(images/box.gif) no-repeat 100% 0;
+	margin:0 0 0 9px;
+	height:9px;
+	}
+.bt div {
+	height:9px;
+	width:9px;
+	position:relative;
+	left:-9px;
+	background:url(images/box.gif) no-repeat 0 0;
+	}
+
+/* Rules for the bottom corners and border */
+.bb {
+	background:url(images/box.gif) no-repeat 100% 100%;
+	margin:0 0 0 9px;
+	height:9px;
+	}
+.bb div {
+	height:9px;
+	width:9px;
+	position:relative;
+	left:-9px;
+	background:url(images/box.gif) no-repeat 0 100%;
+	}
+
+.i1 {
+	padding:0 0 0 1px;
+	background:url(images/borders.gif) repeat-y 0 0;
+	}
+.i2 {
+	padding:0 1px 0 0;
+	background:url(images/borders.gif) repeat-y 100% 0;
+	}
+.hbt {
+	background:url(images/hbox.gif) no-repeat 100% 0;
+	margin:0 0 0 9px;
+	height:9px;
+	}
+.hbt div {
+	height:9px;
+	width:9px;
+	position:relative;
+	left:-9px;
+	background:url(images/hbox.gif) no-repeat 0 0;
+	}
+
+.hbb {
+	background:url(images/hbox.gif) no-repeat 100% 100%;
+	margin:0 0 0 9px;
+	height:9px;
+	}
+.hbb div {
+	height:9px;
+	width:9px;
+	position:relative;
+	left:-9px;
+	background:url(images/hbox.gif) no-repeat 0 100%;
+	}
+
+.i3 {
+	background:#fff;
+	border:1px solid #fff;
+	border-width:1px 0;
+	padding:0 10px;
+	}
+
+.hi3 {
+	background:#b41c14;
+	border:1px solid #b41c14;
+	border-width:1px 0;
+	padding:0 10px;
+	}
+
