@@ -1,6 +1,7 @@
 <?php 
 
 // db functionality
+// This at some point needs cleaning =/
 
 require("config.php");
 class db {
