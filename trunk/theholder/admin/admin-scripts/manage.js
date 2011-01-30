@@ -11,7 +11,7 @@ function showSubManageLinks() {
 gen_side();
 $("Manage").onclick=null;
 $("Manage").appendChild(Builder.node('div',{onclick: 'javascript:;',className: 'smlinks',id: 'ManageSub'},''));
-$("ManageSub").innerHTML = " &raquo; <a href=\"javascript:;\" onClick=\"javascript:newsAndCommentsForm()\">News/Comments</a><br /> &raquo; <a href=\"javascript:;\" onClick=\"javascript:usersForm()\">Users</a><br /> &raquo; <a href=\"javascript:;\" onClick=\"javascript:categoriesForm()\">Categories</a><br /> &raquo; <a href=\"javascript:;\" onClick=\"javascript:widgetsForm()\">Widgets</a>";
+$("ManageSub").innerHTML = " &raquo; <a href=\"javascript:;\" onClick=\"javascript:newsAndCommentsForm()\">News/Comments</a><br /> &raquo; <a href=\"javascript:;\" onClick=\"javascript:usersForm()\">Users</a><br /> &raquo; <a href=\"javascript:;\" onClick=\"javascript:categoriesForm()\">Categories</a><br /> &raquo; <a href=\"javascript:;\" onClick=\"javascript:widgetsForm()\">Widgets</a><br />&raquo; <a href=\"version.php"\">Version</a><br />";
 }
 
 function newsAndCommentsForm() {
