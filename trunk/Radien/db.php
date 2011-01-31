@@ -1,6 +1,14 @@
 <?php 
 
-// db functionality
+///////////////////////////////////////////////////////////////
+// (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
+//  THIS SOFTWARE IS BETA                                     /
+//                                                            /
+// http://code.google.com/p/blackdragon-and-fire              /
+///////////////////////////////////////////////////////////////
+
+// DATABASE CALLS - CAREFULL IF YOU EDIT THIS =/
+// This at some point needs cleaning =/
 
 require("config.php");
 class db {

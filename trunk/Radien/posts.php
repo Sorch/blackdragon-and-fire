@@ -1,8 +1,12 @@
 <?php
 
-// 
-// See index.php for full license.
-/////
+///////////////////////////////////////////////////////////////
+// (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
+//  THIS SOFTWARE IS BETA                                     /
+//                                                            /
+// http://code.google.com/p/blackdragon-and-fire              /
+///////////////////////////////////////////////////////////////
+
 
 require_once("db.php");
 require_once("global.php");
@@ -68,6 +72,8 @@ function posts_xml($result,$db) {
 	}
 	print "\n</posts>";
 }
+
+// Splitting comments in order to understand code
 
 function search_posts($db,$query) {
 	if (strlen($query) > 3) {

@@ -1,10 +1,13 @@
 <?php
-// Copyright 2010 David Ward
-// 
-// See index.php for full license.
 
+///////////////////////////////////////////////////////////////
+// (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
+//  THIS SOFTWARE IS BETA                                     /
+//                                                            /
+// http://code.google.com/p/blackdragon-and-fire              /
+///////////////////////////////////////////////////////////////
 
-// script for degrading gracefully
+// FALL BACK & CMS FAILSAFE
 
 require_once("db.php");
 require_once("global.php");
@@ -28,6 +31,7 @@ $index = str_replace("__BLOGNAME__",$blogname,$index);
 $index = str_replace("__ACTIVETHEME__",$activetheme,$index);
 $index = str_replace("Load();","",$index);
 $index = preg_replace("/[\t\f]/","",$index);
+
 // remove scripts
 $index = preg_replace("/<script(.*?)script>/i","",$index);
 $template = loadTemplate();
@@ -49,6 +53,7 @@ $index = preg_replace("/<div(.+?)id=\"content\"(.*?)>/is","<div\\1id=\"content\"
 print $index;
 $db->disconnect();
 
+
 // decide what to get
 function getContent($viewingsid,$viewingid) {
 	if (!$viewingid) {
@@ -57,6 +62,7 @@ function getContent($viewingsid,$viewingid) {
 		return getPost($viewingid);
 	}
 }
+
 
 // get one post, comments, and the lik
 function getPost($viewingid) {
@@ -200,6 +206,7 @@ function templateReplace($what,$variables,$to) {
 	}
 	return $what;
 }
+
 
 
 // loads the javascript template and converts it to a php array
