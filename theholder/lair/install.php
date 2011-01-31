@@ -74,12 +74,12 @@ if (!$_POST['blogdescription']) {
 	$blogdescription = $_POST['blogdescription'];
 }
 	$absolutepath = getcwd();
-	$absolutepath = preg_replace("/admin$/i","",$absolutepath);
+	$absolutepath = preg_replace("/lair$/i","",$absolutepath);
 	$scriptpath = "./scripts/";
 	$themepath = "./themes/";
 	$activetheme = "default";
 	$blogpath = $_SERVER['REQUEST_URI'];
-	$blogpath = preg_replace("/admin\/install.php$/i","",$blogpath);
+	$blogpath = preg_replace("/lair\/install.php$/i","",$blogpath);
 	$blogurl = "http://" . $_SERVER['HTTP_HOST'] . $blogpath;
 
 print <<<HTML
