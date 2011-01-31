@@ -1,21 +1,16 @@
 <?php
-// 
-// 
-//
+
+///////////////////////////////////////////////////////////////
+// (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
+//  THIS SOFTWARE IS BETA                                     /
+//                                                            /
+// http://code.google.com/p/blackdragon-and-fire              /
+///////////////////////////////////////////////////////////////
+
 
 if (!file_exists("config.php")) {
 print "A config.php file must exist! Read README.txt!";
 exit;
-}
-
-// browser detection and redirection
-// only ie7 and firefox 1.5 should make it.
-// browsers like opera sneak on by, and thats a-okay with me!
-
-$agent = $_SERVER['HTTP_USER_AGENT'];
-if (!preg_match("/MSIE 7.0/i",$agent) && !preg_match("/Firefox\/3.6.12/i",$agent)) {
-	header("Location: noscript.php");
-	exit;
 }
 
 
