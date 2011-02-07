@@ -1,4 +1,4 @@
-<?
+a<?
 
 ///////////////////////////////////////////////////////////////
 // (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
@@ -116,7 +116,7 @@ $db->query("INSERT INTO `".DB_PREFIX."comments` VALUES(0,1,'Mr BlackDragon & Fir
 $db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'Search','[search]')");
 //$db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'Latest 10 posts','[rss,&bull;&nbsp;,${blogurl}rss.php]')");
 $db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'About Me','Insert some information about yourself here!')");
-$db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'Links','&bull; <a href=\"http://code.google.com/p/blackdragon-and-fire\">Source Code</a><br />&bull; <a href=\"${blogurl}admin/\">Admin Interface</a>')");
+$db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'Links','&bull; <a href=\"http://code.google.com/p/blackdragon-and-fire\">Source Code</a><br />&bull; <a href=\"${blogurl}lair/\">Admin Interface</a>')");
 
 
 
@@ -141,7 +141,7 @@ $db->disconnect();
 print <<<HTML
 <div class="T"><br /><br /><i>...Finished!</i>
 <br/><br />
-Your BlackDragon & Fire CMS installation is complete. You may <a href="${blogurl}admin/">Login</a> to the admin interface with the following credentials:
+Your BlackDragon & Fire CMS installation is complete. You may <a href="${blogurl}lair/">Login</a> to the admin interface with the following credentials:
 <br/>
 <strong>Username:</strong> admin<br/>
 <strong>Password:</strong> $random_password<br/><br/>
