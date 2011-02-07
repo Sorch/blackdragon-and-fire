@@ -14,7 +14,10 @@ body {background:url(images/bodybg.jpg) fixed repeat; font: 12px Verdana, Geneva
 ul {list-style:none;}
 #header {background:url(images/header.jpg) no-repeat; height:200px;}
 #topbar {background:url(images/headerbar.jpg) repeat-x; height:40px;}
-#content {background:url(images/pagebg.jpg) repeat-y;}
+#content {
+	background:url(images/pagebg.jpg) repeat-y;
+        width:78%;	
+}
 #sitename {display:block; float:left; font:bold 34px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#85c2e3; text-shadow: #000 1px 1px 1px; padding:3px 3px 0 15px;}
 #sitename a {text-decoration:none; color:#85c2e3;}
 #sitename a:active, #sitename a:visited {text-decoration:none; color:#85c2e3;}
@@ -22,8 +25,19 @@ ul {list-style:none;}
 #sitename span {color:#FF3!important; font-size:36px!important;}
 #sitename a span {color:#FF3!important;}
 .clear {clear:both;}
-#left {width:646px; float:left; padding:8px;}
-#sidebar {width:280px; padding:17px 8px 8px 8px; float:right;}
+#left {
+	width:80%; 
+	float:left; 
+	padding:8px;
+	position:fixed;
+        right:80%;
+}
+#sidebar {
+	width:20%; 
+	padding:17px 8px 8px 8px; 
+        left:80%;
+	float:right;
+}
 #left p {line-height:16px; margin-bottom:18px;}
 
 h2 {color: #85c2e3; font:bold 26px "Trebuchet MS", Arial, Helvetica, sans-serif; text-shadow:#000 1px 1px 1px; display:block; margin-bottom:10px;}
