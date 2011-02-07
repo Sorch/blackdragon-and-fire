@@ -146,7 +146,7 @@ Your BlackDragon & Fire CMS installation is complete. You may <a href="${blogurl
 <strong>Username:</strong> admin<br/>
 <strong>Password:</strong> $random_password<br/><br/>
 Do not forget this password!<br /><br />
-<a href="$blogurl">View your blog now!</a> or <a href="${blogurl}admin/">View the admin interface now!</a>
+<a href="$blogurl">View your blog now!</a> or <a href="${blogurl}lair/">View the admin interface now!</a>
 <br /><br /><br />
 You're all done!
 </div>
