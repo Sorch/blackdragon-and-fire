@@ -9,7 +9,7 @@
 
 
 if (!file_exists("config.php")) {
-print "A config.php file must exist! Read README.txt!";
+print "Danger config.php is not here please add it =D";
 exit;
 }
 
