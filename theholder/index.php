@@ -3,7 +3,7 @@
 ///////////////////////////////////////////////////////////////
 // (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
 //  THIS SOFTWARE IS BETA                                     /
-//                                                            /
+//  irc.ffirc.me.uk                     #firebocms            /
 // http://code.google.com/p/blackdragon-and-fire              /
 ///////////////////////////////////////////////////////////////
 
