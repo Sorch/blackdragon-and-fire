@@ -19,7 +19,7 @@ $user = $_POST['uname'];
 $pass = $_POST['pass'];
 $verified = verifylogin($user, $pass, $db);
 if ($verified == 0) {
-    print '<login><info><error>Incorrect User/Pass!</error></info></login>';
+    print '<login><info><error>Auth Failed try again !!</error></info></login>';
 } else {
     print '<uname>' . $user . '</uname><pass>' . $verified[2] . '</pass>';
 } 
