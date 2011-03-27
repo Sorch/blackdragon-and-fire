@@ -114,7 +114,7 @@ $db->query("INSERT INTO `".DB_PREFIX."comments` VALUES(0,1,'Mr BlackDragon & Fir
 
 // first widgets
 $db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'Search','[search]')");
-//$db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'Latest 10 posts','[rss,&bull;&nbsp;,${blogurl}rss.php]')");
+$db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'Latest 10 posts','[rss,&bull;&nbsp;,${blogurl}rss.php]')");
 $db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'About Me','Insert some information about yourself here!')");
 $db->query("INSERT INTO `".DB_PREFIX."widgets` VALUES(0,'Links','&bull; <a href=\"http://code.google.com/p/blackdragon-and-fire\">Source Code</a><br />&bull; <a href=\"${blogurl}lair/\">Admin Interface</a>')");
 
@@ -243,7 +243,7 @@ $db->query("CREATE TABLE `".DB_PREFIX."widgets` (
 }
 
 function step_one() {
-print "<h1 class=\"T\"><b>FireBolt CMS Installation:</b></h1><br/><div class=\"T\">Welcome to the BlackDragon & Fire CMS installer! BlackDragon & Fire is beta and should <b>not</b> be used on production servers.</div><br/><form name=\"installF\" action=\"install.php\" method=\"POST\"><h3 class=\"T\">
+print "<h1 class=\"T\"><b>Blackdragon & Fire CMS Installation:</b></h1><br/><div class=\"T\">Welcome to the BlackDragon & Fire CMS installer! BlackDragon & Fire is beta and should <b>not</b> be used on production servers.</div><br/><form name=\"installF\" action=\"install.php\" method=\"POST\"><h3 class=\"T\">
 <input type=\"hidden\" name=\"action\" value=\"steptwo\">
 <br /><input type=\"submit\" value =\"Step Two »\">
 </form>";
