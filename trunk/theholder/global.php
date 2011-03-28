@@ -1,7 +1,7 @@
 <?php
 // Globals
 // 
-// See index.php for full license.
+// This will be cleaned up and patched to run cleaner 
 function xmlencode($string)
 {
     return str_replace (array ('“', '”', '…', '&', '"', "'", '<', '>', '‘'), array ('"', '"', '...', '&amp;' , '&quot;', '&apos;' , '&lt;' , '&gt;', '\''), $string); 
