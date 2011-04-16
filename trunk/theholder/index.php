@@ -3,13 +3,15 @@
 ///////////////////////////////////////////////////////////////
 // (c) 2010 - 2011 BlackDragon & Fire CMS  Development Team   /
 //  THIS SOFTWARE IS BETA                                     /
-//  irc.ffirc.me.uk                     #firebocms            /
 // http://code.google.com/p/blackdragon-and-fire              /
+//							      /
+// Pushing version 2.1 BETA out codebase begin                /                      
+// See devlog.txt for more info  			      /
 ///////////////////////////////////////////////////////////////
 
 
 if (!file_exists("config.php")) {
-print "Danger config.php is not here please add it =D";
+print "[ERR]Hello there i require a file called config.php to continue.";
 exit;
 }
 
